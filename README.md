@@ -36,7 +36,7 @@ Ce projet est entièrement **front-end** (développé en HTML/CSS/JavaScript). I
 
 1. Clonez le dépôt sur votre machine :
    ```bash
-   git clone github.com
+   git clone https://github.com/JustCynass/badusb_payload_builder
    ```
 2. Ouvrez simplement le fichier `index.html` dans votre navigateur internet moderne préféré.
 
