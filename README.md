@@ -1,47 +1,47 @@
 # ⚡ BadUSB - Payload Builder
 
-**BadUSB - Payload Builder** est un environnement de développement web moderne, fluide et ergonomique conçu pour simplifier la conception, l'apprentissage et le déploiement de scripts **DuckyScript**. 
+**BadUSB - Payload Builder** is a modern, responsive, and user-friendly web development environment designed to simplify the creation, learning, and deployment of **DuckyScript** scripts.
 
-Développé avec une interface graphique immersive inspirée de l'univers de la cybersécurité, cet outil s'adresse aussi bien aux professionnels de la sécurité offensive pour leurs audits de test d'intrusion, qu'aux étudiants souhaitant décortiquer la mécanique des attaques par injection de touches (Keystroke Injection).
+Developed with an immersive graphical interface inspired by the world of cybersecurity, this tool is designed for both offensive security professionals conducting penetration testing audits and students looking to dissect the mechanics of keystroke injection attacks.
 
 ---
 
-## ✨ Fonctionnalités Avancées
+## ✨ Advanced Features
 
-* 🚀 **Générateur & Éditeur de Script Réel :** Concevez vos payloads à l'aide d'un panneau d'injection rapide ou écrivez directement votre code avec une sauvegarde locale automatique en temps réel (`localStorage`).
-* 📚 **Librairie de Scripts & Templates :** Accédez à un catalogue intégré de templates pré-configurés pour vos scénarios d'audit courants (Reconnaissance rapide, ouverture de reverse shell, extraction de données, etc.).
-* 🛡️ **Matrice de Compatibilité par Modèle :** Vérifiez en un coup d'œil si vos commandes ou vos scripts sont compatibles avec le matériel à votre disposition :
-  * Hak5 USB Rubber Ducky (v1 & v2 et le v3)
+* 🚀 **Real-Time Script Generator & Editor:** Design your payloads using a quick injection panel, or write your code directly with automatic real-time local storage (`localStorage`).
+* 📚 **Script & Template Library:** Access a built-in catalog of pre-configured templates for your common audit scenarios (rapid reconnaissance, opening a reverse shell, data extraction, etc.).
+* 🛡️ **Model Compatibility Matrix:** See at a glance whether your commands or scripts are compatible with the hardware you have available:
+  * Hak5 USB Rubber Ducky (v1 & v2 and v3)
   * Flipper Zero
-  * M5StickC / M5Stack (avec firmware HID)
+  * M5StickC / M5Stack (HID firmware)
   * Digispark ATTiny85
   * Raspberry Pi Pico / Arduino Pro Micro
-* 🔍 **Analyseur Pas-à-Pas (Payload Deconstruction) :** Visualisez et comprenez le déroulement exact de chaque payload. L'outil découpe le script ligne par ligne pour expliquer l'impact de chaque commande (`DELAY`, `STRING`, `GUI r`) sur le système cible.
-* 💾 **Gestion des Fichiers & Export :** Fonctions intégrées pour **Copier** dans le presse-papiers, **Télécharger** directement le script au format `.txt` standard, ou **Importer** vos propres créations existantes.
+* 🔍 **Step-by-Step Analyzer (Payload Deconstruction):** Visualize and understand the exact sequence of each payload. The tool breaks down the script line by line to explain the impact of each command (`DELAY`, `STRING`, `GUI r`) on the target system.
+* 💾 **File Management & Export:** Built-in features to **Copy** to the clipboard, **Download** the script directly in standard `.txt` format, or **Import** your own existing creations.
 
 ---
 
-## 🎨 Design & Ergonomie
+## 🎨 Design & Ergonomics
 
-Fidèle aux exigences visuelles les plus modernes, l'application intègre :
-* Une interface **Dark Mode** profonde avec des auras lumineuses rouge dynamiques (Neon Glow).
-* Des composants aux **coins ultra-arrondis** (`border-radius`) pour un rendu "capsule" épuré.
-* Un **smoothing de précision** sur les animations de survol, le défilement et le rendu des polices typographiques (`JetBrains Mono`).
+In line with the latest visual trends, the app features:
+* A deep **Dark Mode** interface with dynamic red light auras (Neon Glow).
+* Components with **ultra-rounded corners** (`border-radius`) for a sleek, “capsule-like” look.
+* **Precision smoothing** for hover animations, scrolling, and typographic rendering (`JetBrains Mono`).
 
 ---
 
-## 🚀 Installation & Déploiement
+## 🚀 Installation & Deployment
 
-Ce projet est entièrement **front-end** (développé en HTML/CSS/JavaScript). Il est autonome et ne nécessite aucune base de données ni serveur lourd.
+This project is entirely **front-end** (developed using HTML/CSS/JavaScript). It is self-contained and requires no database or backend server.
 
-1. Clonez le dépôt sur votre machine :
+1. Clone the repository to your machine:
    ```bash
    git clone https://github.com/JustCynass/badusb_payload_builder
    ```
-2. Ouvrez simplement le fichier `index.html` dans votre navigateur internet moderne préféré.
+2. Simply open the `index.html` file in your favorite modern web browser.
 
 ---
 
-## 🔒 Clause de non-responsabilité (Disclaimer)
+## 🔒 Disclaimer
 
-Cet outil est développé et mis à disposition **uniquement à des fins d'éducation**, de recherche en sécurité et de tests d'intrusion dûment autorisés par écrit (Ethical Hacking / Pentesting). L'auteur décline toute responsabilité quant à un usage malveillant ou destructeur du logiciel. L'utilisateur est seul responsable du respect des lois en vigueur dans sa juridiction.
+This tool is developed and made available **solely for educational purposes**, security research, and penetration testing that has been duly authorized in writing (Ethical Hacking / Pentesting). The author assumes no liability for any malicious or destructive use of the software. The user is solely responsible for complying with the laws in effect in their jurisdiction.
