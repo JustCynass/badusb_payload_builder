@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="capture.png" alt="Logo de votre projet" width="1000" />
+</p>
+
 # ⚡ BadUSB - Payload Builder
 
 **BadUSB - Payload Builder** is a modern, responsive, and user-friendly web development environment designed to simplify the creation, learning, and deployment of **DuckyScript** scripts.
