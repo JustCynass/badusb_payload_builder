@@ -2,6 +2,16 @@
 <link rel="stylesheet" href="style.css">
 <html lang="fr">
 <head>
+    <meta property="og:title" content="BadUSB - Payload Builder" />
+    <meta property="og:description" content="DuckyScript generator and visual editor. Create, manage, and dissect your ethical payloads for Rubber Ducky, Flipper Zero, and M5Stick." />
+    <meta property="og:url" content="https://justcynass.github.io/badusb_payload_builder/" />
+    <meta property="og:type" content="website" />
+
+    <!-- CRUCIAL : L'URL de l'image DOIT être une URL absolue (complète) pour que Discord l'accepte -->
+    <meta property="og:image" content="github.io" />
+
+    <!-- Couleur de la petite barre verticale sur le côté gauche de l'embed Discord (Vert Néon) -->
+    <meta name="theme-color" content="#00ff66">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BadUSB - Payload builder</title>
@@ -256,7 +266,7 @@
         const stepsContainer = document.getElementById('steps-container');
         const modal = document.getElementById('main-modal');
         const modalContent = document.getElementById('modal-content');
-        
+
         const DATA = {
         scripts: {
         '1 - EPTM Notepad': { plat: 'Windows', desc: 'Affiche un logo en ASCII Art dans le bloc-notes.', code: "REM Author: SeenKid (seenkid on Discord)\nREM Description: EPTM notepad\nREM Version: 1.0\nDELAY 500\nGUI r\nDELAY 500\nSTRING notepad\nENTER\nDELAY 300\nGUI UPARROW\nDELAY 200\nSTRING                                                                                                 &                     \nENTER\nSTRING                                                                             ./&@@@@@@@@@@@@@@@@@@@@                     \nENTER\nSTRING                                                                     ,%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(((((* \nENTER\nSTRING                                                                 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@((((((((((((((((.    \nENTER\nSTRING                                                                 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(((((((((((((((((((((\nENTER\nSTRING       @@@@@@@%     @@@@   .@@@           @@@@@@@@&     @@@         #@@  @@@@&       @@@@           .@@@        .@@@@@,             @@(/  .((((((((((   (((\nENTER\nSTRING  ,@@@@@@@@@@@@@  @@@@@@  @@@@@          @@@@@@@@@@@@ /@@@.        @@@@ @@@@@@@#   @@@,            @@               @@             #@(     (((((((     /((\nENTER\nSTRING @@@@&           @@@&&@@, @@@@@@@        @@@@      @@ /@@@.        @@@@            @@@,   @@@@@@@@@@@    @@@@@@    @@@@@* @@@@@@@(        ((((      /((\nENTER\nSTRING .@@@&           @@@%      @@@@@@@@ @@@@ @@@@      @@ /@@@         @@@@ @@@@&      @@@,          @@@@@    @@@@@/    @@@@@* @@@@@@@(         (    (   /((\nENTER\nSTRING @@@@          @@@&(((((  @@@@  @@@@@&  @@@@@@@@@@@@ /@@@.        @@@@ &@@@@@@@   @@@,         /@@@@@            %@@@@@@* @@@@@@@(    ((      ,((   /((\nENTER\nSTRING @@@@@        .@@@@@@@@@@@ @@@@   (@@    @@@@           @@@@        %@       &@@@   @@@,   @@@@@@@@@@@    @@@@@@@@@@@@@@@* @@@@@@@(    (((.  ((((   /((\nENTER\nSTRING   @@@@@@@@ *@@@/          @@@@           @@@@           @@@@@@@@  @@@@@@@@@@@@/   @@@,            @@    @@@@@@@@@@@@@@@* @@@@@@@(    ((((((((((   /((\nENTER\nSTRING        ,%&   (%             %(            *#                .#@@%,     /@@@#       @@@@@##########@@@@//@@@@@@@@@@@@@@@@@&,@@@@@@@@((,*((((((((((((.((((\nENTER\nSTRING                                                                 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(((((((((((((((((((((\nENTER\nENTER\nSTRING                                                                 Yann B." },
@@ -470,33 +480,33 @@
         </div>
         </div>`;
         } else if(type === 'modal-credits') {
-            modalContent.innerHTML = `
-            <h2 class="text-3xl font-black mb-6 text-sith-red tracking-tight text-center uppercase">Credits</h2>
-            <div class="space-y-6 p-6 bg-black/20 rounded-3xl border border-white/5 text-center">
-                <div>
-                    <p class="text-gray-500 text-xs uppercase mb-1">Created by</p>
-                    <a href="https://github.com/JustCynass" target="_blank" class="credit-link text-white font-bold text-xl italic inline-flex items-center gap-2">
-                        Tanino <span class="text-sith-red">"Cynass"</span> V.
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                    </a>
-                </div>
+        modalContent.innerHTML = `
+        <h2 class="text-3xl font-black mb-6 text-sith-red tracking-tight text-center uppercase">Credits</h2>
+        <div class="space-y-6 p-6 bg-black/20 rounded-3xl border border-white/5 text-center">
+        <div>
+        <p class="text-gray-500 text-xs uppercase mb-1">Created by</p>
+        <a href="https://github.com/JustCynass" target="_blank" class="credit-link text-white font-bold text-xl italic inline-flex items-center gap-2">
+        Tanino <span class="text-sith-red">"Cynass"</span> V.
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>
+        </div>
 
-                <div class="border-t border-white/10 pt-4">
-                    <p class="text-gray-500 text-xs uppercase mb-3">Payloads Sources</p>
-                    <div class="flex flex-wrap justify-center gap-2">
-                        <a href="https://github.com/SeenKid/flipper-zero-bad-usb/tree/main" target="_blank" class="credit-link text-white/70 hover:text-sith-red text-[11px] font-bold italic inline-flex items-center gap-1 border border-white/5 bg-white/5 px-3 py-1 rounded-full">SeenKid <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline></svg></a>
-                        <a href="https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB/tree/main" target="_blank" class="credit-link text-white/70 hover:text-sith-red text-[11px] font-bold italic inline-flex items-center gap-1 border border-white/5 bg-white/5 px-3 py-1 rounded-full">Jakoby <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline></svg></a>
-                        <a href="https://github.com/UberGuidoZ/Flipper_Zero-BadUsb/tree/main" target="_blank" class="credit-link text-white/70 hover:text-sith-red text-[11px] font-bold italic inline-flex items-center gap-1 border border-white/5 bg-white/5 px-3 py-1 rounded-full">UberGuidoZ <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline></svg></a>
-                        <a href="https://payloadhub.com/blogs/payloads" target="_blank" class="credit-link text-white/70 hover:text-sith-red text-[11px] font-bold italic inline-flex items-center gap-1 border border-white/5 bg-white/5 px-3 py-1 rounded-full">PayloadHub <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline></svg></a>
-                    </div>
-                </div>
+        <div class="border-t border-white/10 pt-4">
+        <p class="text-gray-500 text-xs uppercase mb-3">Payloads Sources</p>
+        <div class="flex flex-wrap justify-center gap-2">
+        <a href="https://github.com/SeenKid/flipper-zero-bad-usb/tree/main" target="_blank" class="credit-link text-white/70 hover:text-sith-red text-[11px] font-bold italic inline-flex items-center gap-1 border border-white/5 bg-white/5 px-3 py-1 rounded-full">SeenKid <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline></svg></a>
+        <a href="https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB/tree/main" target="_blank" class="credit-link text-white/70 hover:text-sith-red text-[11px] font-bold italic inline-flex items-center gap-1 border border-white/5 bg-white/5 px-3 py-1 rounded-full">Jakoby <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline></svg></a>
+        <a href="https://github.com/UberGuidoZ/Flipper_Zero-BadUsb/tree/main" target="_blank" class="credit-link text-white/70 hover:text-sith-red text-[11px] font-bold italic inline-flex items-center gap-1 border border-white/5 bg-white/5 px-3 py-1 rounded-full">UberGuidoZ <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline></svg></a>
+        <a href="https://payloadhub.com/blogs/payloads" target="_blank" class="credit-link text-white/70 hover:text-sith-red text-[11px] font-bold italic inline-flex items-center gap-1 border border-white/5 bg-white/5 px-3 py-1 rounded-full">PayloadHub <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline></svg></a>
+        </div>
+        </div>
 
-                <div class="text-sm space-y-2 border-t border-white/10 pt-4">
-                    <p class="text-gray-500">Design System : <span class="text-white">Neo-Glassmorphism</span></p>
-                    <p class="text-gray-500">Engine : <span class="text-white">Gemini 1.5 Pro</span></p>
-                    <p class="text-gray-500 font-bold uppercase text-[10px]">Version : <span class="text-sith-red">1.2</span></p>
-                </div>
-            </div>`;
+        <div class="text-sm space-y-2 border-t border-white/10 pt-4">
+        <p class="text-gray-500">Design System : <span class="text-white">Neo-Glassmorphism</span></p>
+        <p class="text-gray-500">Engine : <span class="text-white">Gemini 1.5 Pro</span></p>
+        <p class="text-gray-500 font-bold uppercase text-[10px]">Version : <span class="text-sith-red">1.2</span></p>
+        </div>
+        </div>`;
         }
         }
 
