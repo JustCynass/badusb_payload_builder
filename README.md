@@ -6,6 +6,8 @@
 
 **BadUSB - Payload Builder** is a modern, responsive, and user-friendly web development environment designed to simplify the creation, learning, and deployment of **DuckyScript** scripts.
 
+With an out-of-the-box collection of **400+ production-ready BadUSB scripts** and **50+ highly customizable blueprints/templates**, this platform enables you to craft, test, and understand complex payloads instantly.
+
 Developed with an immersive graphical interface inspired by the world of cybersecurity, this tool is designed for both offensive security professionals conducting penetration testing audits and students looking to dissect the mechanics of keystroke injection attacks.
 
 ---
