@@ -53,6 +53,8 @@ This project is entirely **front-end** (developed using HTML/CSS/JavaScript). It
    ```
 2. Simply open the `index.html` file in your favorite modern web browser.
 
+3. Simply go to the Live Web 🔗`https://justcynass.github.io/badusb_payloadbuilder/`
+
 ---
 
 ## 🔒 Disclaimer
