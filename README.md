@@ -1,12 +1,12 @@
 <p align="center">
-    <img src="banner.png" alt="BadUSB-Banner" width="9999">
+    <img src="https://raw.githubusercontent.com/JustCynass/badusb_payloadbuilder/refs/heads/main/banner.png" alt="BadUSB-Banner" width="9999">
 </p>
 
 # ⚡ BadUSB - Payload Builder
 
 **BadUSB - Payload Builder** is a modern, responsive, and user-friendly web development environment designed to simplify the creation, learning, and deployment of **DuckyScript** scripts.
 
-With an out-of-the-box collection of **400+ production-ready BadUSB scripts** and **50+ highly customizable blueprints/templates**, this platform enables you to craft, test, and understand complex payloads instantly.
+With an out-of-the-box collection of **400+ production-ready BadUSB scripts** and **60+ highly customizable blueprints/templates**, this platform enables you to craft, test, and understand complex payloads instantly.
 
 Developed with an immersive graphical interface inspired by the world of cybersecurity, this tool is designed for both offensive security professionals conducting penetration testing audits and students looking to dissect the mechanics of keystroke injection attacks.
 
@@ -49,9 +49,11 @@ This project is entirely **front-end** (developed using HTML/CSS/JavaScript). It
 
 1. Clone the repository to your machine:
    ```bash
-   git clone https://github.com/JustCynass/badusb_payload_builder
+   git clone https://github.com/JustCynass/badusb_payloadbuilder
    ```
 2. Simply open the `index.html` file in your favorite modern web browser.
+
+3. Simply go to the Live Web 🔗`https://justcynass.github.io/badusb_payloadbuilder/`
 
 ---
 
