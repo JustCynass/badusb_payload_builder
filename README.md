@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="banner.png" alt="BadUSB-Banner" width="9999">
+    <img src="" alt="BadUSB-Banner" width="9999">
 </p>
 
 # ⚡ BadUSB - Payload Builder
