@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="" alt="BadUSB-Banner" width="9999">
+    <img src="https://raw.githubusercontent.com/JustCynass/badusb_payloadbuilder/refs/heads/main/banner.png" alt="BadUSB-Banner" width="9999">
 </p>
 
 # ⚡ BadUSB - Payload Builder
