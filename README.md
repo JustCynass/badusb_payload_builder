@@ -49,7 +49,7 @@ This project is entirely **front-end** (developed using HTML/CSS/JavaScript). It
 
 1. Clone the repository to your machine:
    ```bash
-   git clone https://github.com/JustCynass/badusb_payload_builder
+   git clone https://github.com/JustCynass/badusb_payloadbuilder
    ```
 2. Simply open the `index.html` file in your favorite modern web browser.
 
