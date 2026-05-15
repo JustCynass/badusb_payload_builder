@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="capture.png" alt="Logo de votre projet" width="1000" />
+    <img src="banner.png" alt="BadUSB-Banner" width="9999">
 </p>
 
 # ⚡ BadUSB - Payload Builder
@@ -11,6 +11,13 @@ With an out-of-the-box collection of **400+ production-ready BadUSB scripts** an
 Developed with an immersive graphical interface inspired by the world of cybersecurity, this tool is designed for both offensive security professionals conducting penetration testing audits and students looking to dissect the mechanics of keystroke injection attacks.
 
 ---
+<h2>📸 Preview:</h2>
+
+<p align="center">
+    <img src="capture.png" alt="BadUSB-Banner" width="9999">
+</p>
+
+--- 
 
 ## ✨ Advanced Features
 
