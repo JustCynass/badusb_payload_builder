@@ -44,14 +44,7 @@ Please review our [Code of Conduct](CODE_OF_CONDUCT.md) to understand the expect
    ```
 7. **Open a Pull Request**:
    - Go to the original repository and create a pull request from your branch.
-   - Use the [Pull Request Template](PULL_REQUEST_TEMPLATE.md) to provide details about your changes.
    - Reference any related issues (e.g., `Fixes #123`).
-
-### Setting Up the Development Environment
-- Follow the [Installation](#installation) section in the [README.md](README.md) to set up the project locally.
-- Ensure you have Python 3.8+ and pip installed.
-- Run `python start.py` to create a virtual environment and install dependencies (`PyQt6`, `psutil`, `pyinstaller`, `qtawesome`).
-- Test your changes by launching the GUI with `python start.py`.
 
 ## Guidelines
 - **Code Quality**: Ensure your code is clean, readable, and follows PEP 8 standards.
@@ -69,4 +62,4 @@ If you have questions or need help, feel free to:
 - Open an issue on the [Issues page](https://github.com/justcynass/badusb_payloadbuilder/issues).
 - Contact the maintainer at [@Cynass](https://github.com/justcynass).
 
-Thank you for contributing to PyExe Builder Professional!
+Thank you for contributing to Bad USB - Payload Builder!
